@@ -1,0 +1,6 @@
+{
+  "name": "Personal mail",
+  "description": "Personal mail on Heroku",
+  "image": "heroku/python",
+  "keywords": [ "python", "django" ]
+}

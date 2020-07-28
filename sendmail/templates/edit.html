@@ -1,0 +1,13 @@
+
+
+{% block main_content %}
+<form method="post">
+	{% csrf_token %}
+	<table>
+		{{ form }}
+	</table>
+	<p>
+	<input type="submit" class="btn btn-success" value="Сохранить">
+	<a href="{% url "sendmail:list" %}">Назад к списку</a>
+</form>
+{% endblock %}
