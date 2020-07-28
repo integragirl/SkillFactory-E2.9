@@ -30,8 +30,8 @@ ALLOWED_HOSTS = ['*']
 EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
-EMAIL_HOST_USER = 'integragirl@mail.ru'
-EMAIL_HOST_PASSWORD = 'polimer72'
+EMAIL_HOST_USER = 'your_mail@mail.ru'
+EMAIL_HOST_PASSWORD = 'вставь_сюда_пароль'
 
 # Application definition
 

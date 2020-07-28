@@ -31,7 +31,7 @@ class MailPost(models.Model):
 
 def worker(self):
     time.sleep(self.timeSecond)
-    answ = send_mail('Django mail', self.text, 'integragirl@mail.ru', ['integragirl@mail.ru'], fail_silently=False)
+    answ = send_mail('Django mail', self.text, 'your_mail@mail.ru', ['your_mail@mail.ru'], fail_silently=False)
     if answ == 1:
         self.sent = True
         self.save()
