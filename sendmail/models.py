@@ -9,7 +9,7 @@ from django.utils.translation import gettext as _
 
 
 class MailPost(models.Model):
-    id = models.UUIDField(default=uuid.uuid4, primary_key=True, verbose_name=_("Уникальный ключ"))
+    #id = models.UUIDField(default=uuid.uuid4, primary_key=True, verbose_name=_("Уникальный ключ"))
     text = models.TextField(verbose_name='Текст')
     timeSecond = models.IntegerField(blank=True, null=True, verbose_name='Кол-во секунд')
     sent = models.BooleanField(default=False, verbose_name='Отправлено (да/нет)')
